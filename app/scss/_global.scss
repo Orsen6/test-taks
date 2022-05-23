@@ -1,0 +1,128 @@
+
+body{
+  max-width: 1840px;
+  margin: 0 auto;
+  padding: 80px 80px 120px;
+  background-color: #F2F2F2;
+}
+@media screen and (max-width: 1400px) {
+  body{
+    padding: 60px 60px 100px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body{
+    padding: 40px 40px 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body{
+    padding: 25px 25px 55px;
+  }
+}
+
+.section{
+  padding: 120px 0;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1400px) {
+  .section{
+    padding: 90px 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section{
+    padding: 60px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section{
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section{
+    padding: 30px 0;
+  }
+}
+
+
+.text-color{
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h2, .h2{
+  font-size: clamp(38px, 3vw, 48px);
+  // line-height: 72px;
+  line-height: clamp(50px, 3vw, 72px);
+  letter-spacing: -0.015em;
+  @extend %Montserrat-400;
+  color: #000000;
+}
+
+h5, .h5{
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  letter-spacing: -0.015em;
+  @extend %Montserrat-700;
+}
+
+h6, .h6{
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  @extend %Montserrat-400;
+}
+
+b{
+  font-size: clamp(26px, 3vw, 36px);
+  // line-height: 50px;
+  line-height: clamp(34px, 3.5vw, 50px);
+  letter-spacing: -0.015em;
+  @extend %Montserrat-400;
+  color: rgba(0, 0, 0, 0.8);
+  display: block;
+}
+
+p{
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  @extend %Montserrat-400;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.block-bg{
+  background-color: #ffffff;
+}
+
+.container{
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 115px;
+}
+.container.container-sm{
+  padding: 0 80px;
+}
+@media screen and (max-width: 1400px) {
+  .container{
+    padding: 0 90px;
+  }
+  .container.container-sm{
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container{
+    padding: 0 30px;
+  }
+  .container.container-sm{
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container{
+    padding: 0 20px;
+  }
+}

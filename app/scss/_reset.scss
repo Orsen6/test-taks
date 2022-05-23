@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul, ol{
+  list-style-type: none;
+}
+button{
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: all .3s;
+}
+button:hover{
+  transform: scale(1.2);
+  transition: all .3s;
+}
